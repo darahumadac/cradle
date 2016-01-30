@@ -1,0 +1,41 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@font-face {
+    font-family: caviar_dreams;
+    src: url(Caviar_Dreams_Bold.ttf);
+}
+
+body{
+  font-family: caviar_dreams;
+}
+
+h1{
+  font-size: 3em;
+}
+
+.jumbotron{
+  background-color: #DEE4E8;
+}
+
+#header{
+  margin-top: -30px;
+  background-color: #001D34;
+  color: white;
+  .menu-items{
+    padding-left: 80px;
+    li{
+      padding: 0px 10px 0px 10px;
+      margin:  0px -10px 0px 0px;
+      font-size: 14px;
+      a{
+        color: white;
+        &:hover{
+          //color: #A2CCED;
+          color: #82C0F0;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
